@@ -1,0 +1,13 @@
+Error[1225] C:\Users\Andrew A\Documents\GitHub\MPLT-Proto\include\ConfigBits.h 23 : configuration value 'OSC1_PLL2' not recognized for configuration setting 'CPUDIV'
+Error[1224] C:\Users\Andrew A\Documents\GitHub\MPLT-Proto\include\ConfigBits.h 42 : configuration setting 'FOSC' not recognized
+Error[1224] C:\Users\Andrew A\Documents\GitHub\MPLT-Proto\include\ConfigBits.h 66 : configuration setting 'PWRT' not recognized
+Error[1224] C:\Users\Andrew A\Documents\GitHub\MPLT-Proto\include\ConfigBits.h 72 : configuration setting 'WDT' not recognized
+Error[1224] C:\Users\Andrew A\Documents\GitHub\MPLT-Proto\include\ConfigBits.h 77 : configuration setting 'CCP2MX' not recognized
+Error[1224] C:\Users\Andrew A\Documents\GitHub\MPLT-Proto\include\ConfigBits.h 86 : configuration setting 'LVP' not recognized
+Error[1224] C:\Users\Andrew A\Documents\GitHub\MPLT-Proto\include\ConfigBits.h 93 : configuration setting 'CP1' not recognized
+Error[1224] C:\Users\Andrew A\Documents\GitHub\MPLT-Proto\include\ConfigBits.h 97 : configuration setting 'CPD' not recognized
+Error[1224] C:\Users\Andrew A\Documents\GitHub\MPLT-Proto\include\ConfigBits.h 102 : configuration setting 'WRT0' not recognized
+Error[1224] C:\Users\Andrew A\Documents\GitHub\MPLT-Proto\include\ConfigBits.h 117 : configuration setting 'WRTB' not recognized
+Error[1224] C:\Users\Andrew A\Documents\GitHub\MPLT-Proto\include\ConfigBits.h 125 : configuration setting 'EBTR0' not recognized
+Error[1224] C:\Users\Andrew A\Documents\GitHub\MPLT-Proto\include\ConfigBits.h 140 : configuration setting 'EBTRB' not recognized
+Error[yy] C:\Users\Andrew A\Documents\GitHub\MPLT-Proto\Common\ExecCodeVar.h 35 : syntax error
