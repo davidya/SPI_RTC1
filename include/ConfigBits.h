@@ -16,11 +16,11 @@
  * David Armstrong      04/15/10    Start
  ********************************************************************/
 
-#ifndef ComfigBits_H
-#define ComfigBits_H
+#ifndef ConfigBits_H
+#define ConfigBits_H
 
 //Address 30000 bits////////////////////////////////////////////////////////////////
-#pragma config PLLDIV = 2, CPUDIV = OSC1_PLL2, USBDIV = 2
+#pragma config PLLDIV = 2, CPUDIV = OSC1
 //PLLDIV = 1 No divide (4 MHz input)
 //PLLDIV = 2 Divide by 2 (8 MHz input)
 //PLLDIV = 3 Divide by 3 (12 MHz input)
@@ -39,7 +39,7 @@
 //USBDIV = 2 USB Clock source from 96 MHz PLL/2
 
 //Address 30001 bits////////////////////////////////////////////////////////////////
-#pragma config FOSC = ECPLLIO_EC, FCMEN = ON, IESO = OFF	
+#pragma config OSC = ECPLL, FCMEN = ON, IESO = OFF	
 //FOSC = XT_XT XT oscillator, XT used by USB
 //FOSC = XTPLL_XT XT oscillator, PLL enabled, XT used by USB
 //FOSC = ECIO_EC External clock, port function on RA6, EC used by
@@ -63,18 +63,17 @@
 //IESO = OFF Oscillator Switchover mode disabled
 
 //Address 30002 bits////////////////////////////////////////////////////////////////
-#pragma config PWRT = ON, BOR = ON, BORV = 3, VREGEN = ON
-//PWRT = OFF PWRT disabled  
+#pragma config DSBOREN = OFF
 //Brown-out Reset enabled in hardware only and disabled in Sleep mode (SBOREN is disabled) 
 //USB voltage regulator enabled  
 
 //Address 30003 bits////////////////////////////////////////////////////////////////
-#pragma config WDT = OFF, WDTPS = 32768
+#pragma config WDTEN = OFF, WDTPS = 32768
 // HW Disabled - SW Controlled  
 // 1:32768 
 
 //Address 30005 bits////////////////////////////////////////////////////////////////
-#pragma config CCP2MX = ON, PBADEN = OFF, LPT1OSC = OFF, MCLRE = ON
+#pragma config SOSCSEL = LOW
 // CCP2 input/output is multiplexed with RC1  
 // PORTB<4:0> pins are configured as digital I/O on Reset  
 //   Low-Power Timer 1 Oscillator Enable bit:
@@ -83,23 +82,23 @@
 // MCLR pin enabled; RE3 input pin disabled  
 
 //Address 30006 bits////////////////////////////////////////////////////////////////
-#pragma config STVREN = ON, LVP = OFF, ICPRT = OFF, XINST = OFF, DEBUG = OFF
+#pragma config STVREN = ON, XINST = OFF
 // Stack full/underflow will cause Reset  
 // Single-Supply ICSP disabled  
 // ICPORT disabled  
 // Instruction set extension and Indexed Addressing mode disabled (Legacy mode)
 
 //Address 30008 bits////////////////////////////////////////////////////////////////
-#pragma config CP0 = OFF,CP1 = OFF, CP2 = OFF, CP3 = OFF           
+#pragma config CP0 = OFF        
 //Block 0-3 code-protected
 
 //Address 30009 bits////////////////////////////////////////////////////////////////
-#pragma config CPD = OFF, CPB = OFF            
+//#pragma config CPB = OFF            
 //Boot block (000000-0007FFh) code-protected
 // Data EEPROM not code-protected 
 
 //Address 3000A bits////////////////////////////////////////////////////////////////
-#pragma config WRT0 = OFF, WRT1 = OFF, WRT2 = OFF, WRT3 = OFF			
+#pragma config WPDIS = OFF	
 //Write Protection bit Block 0:
 //WRT0 = ON            Block 0 (000800-001FFFh) write-protected
 //WRT0 = OFF           Block 0 (000800-001FFFh) not write-protected
@@ -114,7 +113,7 @@
 //WRT3 = OFF           Block 3 (006000-007FFFh) not write-protected
 
 //Address 3000B bits////////////////////////////////////////////////////////////////
-#pragma config WRTB = OFF, WRTC = OFF, WRTD = OFF		
+//#pragma config WRTB = OFF, WRTC = OFF, WRTD = OFF		
 //WRTC = ON            Configuration registers (300000-3000FFh) write-protected
 //WRTC = OFF           Configuration registers (300000-3000FFh) not write-protected
 //Data EEPROM Write Protection bit:
@@ -122,7 +121,7 @@
 //WRTD = OFF           Data EEPROM not write-protected
 
 //Address 3000C bits////////////////////////////////////////////////////////////////
-#pragma config EBTR0 = OFF, EBTR1 = OFF, EBTR2 = OFF, EBTR3 = OFF
+//#pragma config EBTR0 = OFF, EBTR1 = OFF, EBTR2 = OFF, EBTR3 = OFF
 //Table Read Protection bit Block 0:
 //EBTR0 = ON           Block 0 (000800-001FFFh) protected from table reads executed in other blocks
 //EBTR0 = OFF          Block 0 (000800-001FFFh) not protected from table reads executed in other blocks
@@ -137,7 +136,7 @@
 //EBTR3 = OFF          Block 3 (006000-007FFFh) not protected from table reads executed in other blocks
 
 //Address 3000D bits////////////////////////////////////////////////////////////////
-#pragma config EBTRB = OFF		
+//#pragma config EBTRB = OFF		
 //Boot Block Table Read Protection:
 //EBTRB = ON           Boot block (000000-0007FFh) protected from table reads executed in other blocks
 //EBTRB = OFF          Boot block (000000-0007FFh) not protected from table reads executed in other blocks

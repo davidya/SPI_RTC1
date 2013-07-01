@@ -76,21 +76,21 @@
 typedef union _PROG_DATA_PACKET
 {
 	struct{
-		byte len;
+		BYTE len;
 		union
 		{
 		    rom far char *pAdr;             //Address Pointer
-		    uint32 Adr32;
+		    UINT32 Adr32;
 		    struct
 		    {
-		        byte low;                   //Little-indian order
-		        byte high;
-		        byte upper;
-		        byte top;
+		        BYTE low;                   //Little-indian order
+		        BYTE high;
+		        BYTE upper;
+		        BYTE top;
 		    };
 		}ADR;
-		byte data[128];
-		uint32 WordData;		
+		BYTE data[128];
+		UINT32 WordData;		
 	};
 } PROG_DATA_PACKET;
 
@@ -102,6 +102,6 @@ void EraseProgMem(void);
 void Service_SPI ( void );
 
 /** E X T E R N S ************************************************************/
-extern volatile far PROG_DATA_PACKET Prog;
+//extern volatile far PROG_DATA_PACKET Prog;
 
 #endif //MAIN_H

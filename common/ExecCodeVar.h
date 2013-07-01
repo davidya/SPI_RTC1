@@ -32,7 +32,7 @@ extern rom struct				//Need to sync this with ExecCode
 	char ExecCodeVersion[2];
 	char RecordType;			//NA
 	char LogFlashStartSector;	//NA
-	Word LogFlashEndSector;	    //NA
+	char LogFlashEndSector;	    //NA
 } EXEC_CODE_VAR;
 /*
 *From ToolSuite.ToolInterface definition

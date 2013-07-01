@@ -29,7 +29,7 @@
 
 /** LOCAL PROTOTYPES ******************************************************/ 
 BOOL ExecCodePresent();
-void WritePIC_EE(char adr, byte data);
+void WritePIC_EE(char adr, BYTE data);
 unsigned char ReadPIC_EE(char ptr);
 char ChkSumROM(rom char *Data, int Len);
 char ChkSumEE(char Addr, int Len);
@@ -38,40 +38,40 @@ void IntHandlerLow (void);
 
 /** VARIABLES **************************************************************/
 char counter,byteTemp;
-volatile far PROG_DATA_PACKET Data;
-uint32 CoeffSAddr;
+//volatile far PROG_DATA_PACKET Data;
+UINT32 CoeffSAddr;
 BOOL ExecCodeOK, Measuring;
 UINT8_VAL CMD;
 SUB_STATUS Status;
 
        
 /** V E C T O R  R E M A P P I N G ********************************************/
-#pragma code high_vector=0x08
+/*#pragma code high_vector=0x08
 void interrupt_at_high_vector(void)
 {
 	_asm goto IntHandlerHigh _endasm
 }
-#pragma code
+#pragma code*/
 
-#pragma code low_vector=0x18
+/*#pragma code low_vector=0x18
 void interrupt_at_low_vector(void)
 {
     _asm goto IntHandlerLow _endasm
-}
+}*/
 
-#pragma romdata VER = 0x20
+/*#pragma romdata VER = 0x20
 rom char Ver[] = {  MINOR_VERSION, MAJOR_VERSION };
 
 #pragma romdata JUMPTABLE = JUMPTABLEADDR		// The jump table at 0x2100
-
+*/
 rom stdFn jump_table[16];							//Actually filled out by ExecCode. Only the position matters.
 												//Note this will 0 out the first byte in the table if this project is compiled last !
 
 /** D E C L A R A T I O N S **************************************************/
-#pragma code
+//#pragma code
 
 
-#pragma interrupt IntHandlerHigh
+/*#pragma interrupt IntHandlerHigh
 void IntHandlerHigh (void)				//Re-Map here
 {
 	if( PIR1bits.SSPIF ) 
@@ -114,7 +114,7 @@ void IntHandlerLow (void)
  *					so the FCMEM config bit must be set for these to start.
  *****************************************************************************/
 void main(void)
-{ 
+{
 	char Rtn;
 	
 	OpenSPI(SLV_SSOFF, MODE_11, SMPMID);				//Initialize in slave mode with SS pin disabled.
@@ -146,7 +146,8 @@ void main(void)
 			Measuring = FALSE;
 		}
 	}	
-}//end main
+}
+//end main
 
 
 void Service_SPI( void )
@@ -371,7 +372,7 @@ void EraseProgMem(void) //TESTED: Passed
                             // (for USER ID 0x20 0x00 0x00)
 }//end EraseProgMem
 
-void WritePIC_EE( char adr, byte data )
+void WritePIC_EE( char adr, BYTE data )
 {
 
     EEADR = adr;
