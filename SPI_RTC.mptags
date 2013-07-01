@@ -1,0 +1,617 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.5.4	//
+!_TAG_REVISION_NAME	MCHPTags	//
+!_TAG_REVISION_VERSION	6.0.1	//
+ADR	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\Main.c	366;"	p	line:366	file:	signature:((int)counter) << 6
+ADR	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\include\Main.h	91;"	m	line:91	struct:_PROG_DATA_PACKET::<anonymous>
+Adr32	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\include\Main.h	83;"	m	line:83	union:_PROG_DATA_PACKET::<anonymous>::<anonymous>
+BIT	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	65;"	t	line:65
+BOOL	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	615;"	t	line:615
+BOOL	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	64;"	t	line:64
+BYTE	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	341;"	t	line:341
+BYTE_BITS	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	367;"	t	line:367
+BYTE_VAL	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	367;"	t	line:367
+Byte0	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	563;"	m	line:563	struct:_Word::<anonymous>
+Byte0	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	594;"	m	line:594	struct:_DWord::<anonymous>
+Byte1	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	564;"	m	line:564	struct:_Word::<anonymous>
+Byte1	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	595;"	m	line:595	struct:_DWord::<anonymous>
+Byte2	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	596;"	m	line:596	struct:_DWord::<anonymous>
+Byte3	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	597;"	m	line:597	struct:_DWord::<anonymous>
+CHAR	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	347;"	t	line:347
+CHAR8	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	338;"	t	line:338
+CLEAR	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	65;"	e	line:65	enum:_BIT
+CMD	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\Main.c	44;"	v	line:44
+ChkSumEE	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\Main.c	280;"	f	line:280	signature:(char Addr, int Len)
+ChkSumEE	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\Main.c	35;"	p	line:35	file:	signature:(char Addr, int Len)
+ChkSumROM	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\Main.c	263;"	f	line:263	signature:(rom char *Data, int Len)
+ChkSumROM	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\Main.c	34;"	p	line:34	file:	signature:(rom char *Data, int Len)
+ClockRst	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	138;"	p	line:138	signature:( UINT24 Addr, char * Data )
+CoeffSAddr	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\Main.c	42;"	v	line:42
+ConfigBits_H	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\include\ConfigBits.h	20;"	d	line:20
+DWORD	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	343;"	t	line:343
+DWORD_VAL	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	456;"	t	line:456
+DWord	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	608;"	t	line:608
+EECON1_RD::EECON1bits.RD	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\include\Main.h	27;"	d	line:27
+EECON1_WR::EECON1bits.WR	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\include\Main.h	28;"	d	line:28
+EE_LOCS	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	127;"	t	line:127
+EE_SERIAL_HIGH	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	126;"	e	line:126
+EE_SERIAL_LOW	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	125;"	e	line:125
+EXECCODE_ENTRY::EXECCODE_STARTADDR+0x8E	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	23;"	d	line:23
+EXECCODE_STARTADDR::0x2000	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	22;"	d	line:22
+EXEC_CODE_VAR_STUB	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.c	33;"	v	line:33
+EraseProgMem	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\Main.c	357;"	f	line:357	signature:(void)
+EraseProgMem	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\include\Main.h	101;"	p	line:101	signature:(void)
+ExecCodeOK	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\Main.c	43;"	v	line:43
+ExecCodePresent	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\Main.c	297;"	f	line:297
+ExecCodePresent	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\Main.c	31;"	p	line:31	file:
+ExecCodeVersion	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.c	29;"	m	line:29	file:
+ExecCodeVersion	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	32;"	m	line:32
+ExecInit	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	129;"	p	line:129	signature:( UINT24 Addr, char * Data )
+ExecProcess	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	130;"	p	line:130	signature:( UINT24 Addr, char * Data )
+FAIL::FALSE	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	618;"	d	line:618
+FALSE	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	615;"	e	line:615	enum:_BOOL
+FALSE	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	64;"	e	line:64	enum:_BOOL
+FN_CLOCKRST	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	70;"	e	line:70	enum:_JUMP_FUNCTION
+FN_EXECINIT	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	62;"	e	line:62	enum:_JUMP_FUNCTION
+FN_EXECPROCESS	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	63;"	e	line:63	enum:_JUMP_FUNCTION
+FN_GETCOEFFSADDR	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	64;"	e	line:64	enum:_JUMP_FUNCTION
+FN_GETDATA	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	66;"	e	line:66	enum:_JUMP_FUNCTION
+FN_GETTIME	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	69;"	e	line:69	enum:_JUMP_FUNCTION
+FN_MEASURE	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	65;"	e	line:65	enum:_JUMP_FUNCTION
+FN_POWER	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	72;"	e	line:72	enum:_JUMP_FUNCTION
+FN_RESET	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	67;"	e	line:67	enum:_JUMP_FUNCTION
+FN_SENDDATA	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	68;"	e	line:68	enum:_JUMP_FUNCTION
+FN_SETTIME	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	71;"	e	line:71	enum:_JUMP_FUNCTION
+FN_SPARE1	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	73;"	e	line:73	enum:_JUMP_FUNCTION
+FN_SPARE2	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	74;"	e	line:74	enum:_JUMP_FUNCTION
+FN_SPARE3	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	75;"	e	line:75	enum:_JUMP_FUNCTION
+FN_SPARE4	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	76;"	e	line:76	enum:_JUMP_FUNCTION
+FN_SPARE5	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	77;"	e	line:77	enum:_JUMP_FUNCTION
+GetCodeAddr	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	131;"	p	line:131	signature:( UINT24 Addr, char * Data )
+GetCoeffsAddr	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	132;"	p	line:132	signature:( UINT24 Addr, char * Data )
+GetData	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	134;"	p	line:134	signature:( UINT24 Addr, char * Data )
+GetTime	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	137;"	p	line:137	signature:( UINT24 Addr, char * Data )
+HB	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	119;"	m	line:119	struct:<anonymous>::__PACKED
+HB	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	151;"	m	line:151	struct:<anonymous>::__PACKED
+HB	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	197;"	m	line:197	struct:<anonymous>::__PACKED
+HB	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	376;"	m	line:376	struct:<anonymous>::__PACKED
+HB	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	412;"	m	line:412	struct:<anonymous>::__PACKED
+HD	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	254;"	m	line:254	struct:<anonymous>::__PACKED
+HD	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	468;"	m	line:468	struct:<anonymous>::__PACKED
+HW	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	192;"	m	line:192	struct:<anonymous>::__PACKED
+HW	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	259;"	m	line:259	struct:<anonymous>::__PACKED
+HW	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	407;"	m	line:407	struct:<anonymous>::__PACKED
+HW	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	473;"	m	line:473	struct:<anonymous>::__PACKED
+HighB	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	569;"	m	line:569	struct:_Word::<anonymous>
+INPUT_PIN::1	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\io_cfg.h	25;"	d	line:25
+INT	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	72;"	t	line:72
+INT16	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	74;"	t	line:74
+INT32	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	75;"	t	line:75
+INT64	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	79;"	t	line:79
+INT8	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	73;"	t	line:73
+INT_HIGH_OFFS::EXECCODE_STARTADDR+0x82	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	24;"	d	line:24
+INT_LOW_OFFS::EXECCODE_STARTADDR+0x88	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	25;"	d	line:25
+IO_CFG	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\io_cfg.h	20;"	d	line:20
+IntHandlerHigh	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\Main.c	36;"	p	line:36	file:	signature:(void)
+IntHandlerLow	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\Main.c	37;"	p	line:37	file:	signature:(void)
+JUMPTABLEADDR::0x2100	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	55;"	d	line:55
+JUMP_FUNCTION	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	78;"	t	line:78
+LB	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	118;"	m	line:118	struct:<anonymous>::__PACKED
+LB	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	150;"	m	line:150	struct:<anonymous>::__PACKED
+LB	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	196;"	m	line:196	struct:<anonymous>::__PACKED
+LB	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	375;"	m	line:375	struct:<anonymous>::__PACKED
+LB	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	411;"	m	line:411	struct:<anonymous>::__PACKED
+LD	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	253;"	m	line:253	struct:<anonymous>::__PACKED
+LD	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	467;"	m	line:467	struct:<anonymous>::__PACKED
+LOGFLASH_ENDSECTOR::2048	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	28;"	d	line:28
+LOGFLASH_STARTSECTOR::0	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	27;"	d	line:27
+LONG	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	349;"	t	line:349
+LONGLONG	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	352;"	t	line:352
+LOWER_LSB::(a)((a).v[0])	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	609;"	d	line:609
+LOWER_MSB::(a)((a).v[1])	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	610;"	d	line:610
+LSB::(a)((a).v[0])	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	550;"	d	line:550
+LW	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	191;"	m	line:191	struct:<anonymous>::__PACKED
+LW	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	258;"	m	line:258	struct:<anonymous>::__PACKED
+LW	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	406;"	m	line:406	struct:<anonymous>::__PACKED
+LW	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	472;"	m	line:472	struct:<anonymous>::__PACKED
+LogFlashEndSector	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.c	32;"	m	line:32	file:
+LogFlashEndSector	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	35;"	m	line:35
+LogFlashStartSector	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.c	31;"	m	line:31	file:
+LogFlashStartSector	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	34;"	m	line:34
+LowB	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	568;"	m	line:568	struct:_Word::<anonymous>
+MAIN_C	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\Main.c	20;"	d	line:20	file:
+MAIN_H	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\include\Main.h	20;"	d	line:20
+MAJOR_VERSION::7	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\include\Main.h	54;"	d	line:54
+MB	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	199;"	m	line:199	struct:<anonymous>::__PACKED
+MB	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	414;"	m	line:414	struct:<anonymous>::__PACKED
+MINOR_VERSION::7	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\include\Main.h	50;"	d	line:50
+MSB::(a)((a).v[1])	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	551;"	d	line:551
+MW	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	261;"	m	line:261	struct:<anonymous>::__PACKED
+MW	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	475;"	m	line:475	struct:<anonymous>::__PACKED
+Measure	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	133;"	p	line:133	signature:( UINT24 Addr, char * Data )
+Measuring	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\Main.c	43;"	v	line:43
+OK::TRUE	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	617;"	d	line:617
+OUTPUT_PIN::0	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\io_cfg.h	26;"	d	line:26
+PRIVATE::static	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	69;"	d	line:69
+PROG_DATA_PACKET	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\include\Main.h	95;"	t	line:95
+PROTECTED	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	68;"	d	line:68
+PUBLIC::	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	67;"	d	line:67
+Power	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	140;"	p	line:140	signature:( UINT24 Addr, char * Data )
+QWORD	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	346;"	t	line:346
+QWORD_VAL	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	544;"	t	line:544
+RECORD_TYPE::0	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	26;"	d	line:26
+ReadPIC_EE	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\Main.c	33;"	p	line:33	file:	signature:(char ptr)
+ReadPIC_EE	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\Main.c	388;"	f	line:388	signature:( char ptr )
+ReadProgMem	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\Main.c	326;"	f	line:326	signature:( void )
+ReadProgMem	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\include\Main.h	99;"	p	line:99	signature:(void)
+RecordType	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.c	30;"	m	line:30	file:
+RecordType	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	33;"	m	line:33
+Rst	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	135;"	p	line:135	signature:( UINT24 Addr, char * Data )
+Rtn	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\Main.c	118;"	l	line:118
+Rtn	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\Main.c	155;"	l	line:155
+SET	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	65;"	e	line:65	enum:_BIT
+SHORT	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	348;"	t	line:348
+SPI_CMD	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	100;"	t	line:100
+SPI_SEL::PORTBbits.RB4	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\io_cfg.h	32;"	d	line:32
+SUB_CLOCKRST	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	92;"	e	line:92
+SUB_EXECPROCESS	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	85;"	e	line:85
+SUB_GETCOEFFSADDR	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	86;"	e	line:86
+SUB_GETDATA	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	88;"	e	line:88
+SUB_GETPGMEM	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	83;"	e	line:83
+SUB_GETTIME	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	91;"	e	line:91
+SUB_MEASURE	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	87;"	e	line:87
+SUB_POWER	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	94;"	e	line:94
+SUB_PROGRAMEXEC	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	84;"	e	line:84
+SUB_READSTATUS	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	82;"	e	line:82
+SUB_RESET	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	89;"	e	line:89
+SUB_SENDDATA	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	90;"	e	line:90
+SUB_SETTIME	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	93;"	e	line:93
+SUB_SPARE1	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	95;"	e	line:95
+SUB_SPARE2	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	96;"	e	line:96
+SUB_SPARE3	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	97;"	e	line:97
+SUB_SPARE4	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	98;"	e	line:98
+SUB_SPARE5	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	99;"	e	line:99
+SUB_STATUS	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	121;"	t	line:121
+SendData	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	136;"	p	line:136	signature:( UINT24 Addr, char * Data )
+Service_SPI	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\Main.c	153;"	f	line:153	signature:( void )
+Service_SPI	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\include\Main.h	102;"	p	line:102	signature:( void )
+SetTime	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	139;"	p	line:139	signature:( UINT24 Addr, char * Data )
+SpareFunc1	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	141;"	p	line:141	signature:( UINT24 Addr, char * Data )
+SpareFunc2	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	142;"	p	line:142	signature:( UINT24 Addr, char * Data )
+SpareFunc3	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	143;"	p	line:143	signature:( UINT24 Addr, char * Data )
+SpareFunc4	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	144;"	p	line:144	signature:( UINT24 Addr, char * Data )
+SpareFunc5	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	145;"	p	line:145	signature:( UINT24 Addr, char * Data )
+StartWrite	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\Main.c	316;"	f	line:316	signature:(void)
+Status	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\Main.c	45;"	v	line:45
+Subtype	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\Main.c	299;"	l	line:299
+TRUE	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	615;"	e	line:615	enum:_BOOL
+TRUE	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	64;"	e	line:64	enum:_BOOL
+UB	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	152;"	m	line:152	struct:<anonymous>::__PACKED
+UB	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	198;"	m	line:198	struct:<anonymous>::__PACKED
+UB	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	413;"	m	line:413	struct:<anonymous>::__PACKED
+UCHAR8	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	339;"	t	line:339
+UINT	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	83;"	t	line:83
+UINT16	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	85;"	t	line:85
+UINT16_BITS	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	140;"	t	line:140
+UINT16_VAL	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	140;"	t	line:140
+UINT24	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	88;"	t	line:88
+UINT24_BITS	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	181;"	t	line:181
+UINT24_VAL	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	181;"	t	line:181
+UINT32	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	90;"	t	line:90
+UINT32_VAL	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	241;"	t	line:241
+UINT64	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	93;"	t	line:93
+UINT64_VAL	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	330;"	t	line:330
+UINT8	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	84;"	t	line:84
+UINT8_BITS	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	110;"	t	line:110
+UINT8_VAL	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	110;"	t	line:110
+UPPER_LSB::(a)((a).v[2])	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	611;"	d	line:611
+UPPER_MSB::(a)((a).v[3])	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	612;"	d	line:612
+UW	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	260;"	m	line:260	struct:<anonymous>::__PACKED
+UW	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	474;"	m	line:474	struct:<anonymous>::__PACKED
+VOID	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	336;"	t	line:336
+Val	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	114;"	m	line:114
+Val	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	146;"	m	line:146
+Val	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	186;"	m	line:186
+Val	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	247;"	m	line:247
+Val	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	355;"	m	line:355
+Val	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	371;"	m	line:371
+Val	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	401;"	m	line:401
+Val	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	461;"	m	line:461
+Val	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	98;"	m	line:98
+WORD	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	342;"	t	line:342
+WORD_BITS	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	397;"	t	line:397
+WORD_VAL	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	397;"	t	line:397
+Word	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	575;"	t	line:575
+Word0	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	601;"	m	line:601	struct:_DWord::<anonymous>
+Word1	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	602;"	m	line:602	struct:_DWord::<anonymous>
+WordData	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\include\Main.h	93;"	m	line:93	struct:_PROG_DATA_PACKET::<anonymous>
+WritePIC_EE	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\Main.c	32;"	p	line:32	file:	signature:(char adr, BYTE data)
+WritePIC_EE	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\Main.c	375;"	f	line:375	signature:( char adr, BYTE data )
+WriteProgMem	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\Main.c	339;"	f	line:339	signature:(void)
+WriteProgMem	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\include\Main.h	100;"	p	line:100	signature:(void)
+_BIT	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	65;"	g	line:65
+_BOOL	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	615;"	g	line:615
+_BOOL	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	64;"	g	line:64
+_DWord	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	577;"	u	line:577
+_JUMP_FUNCTION	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	60;"	g	line:60
+_PROG_DATA_PACKET	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\include\Main.h	76;"	u	line:76
+_Word	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	553;"	u	line:553
+__EXTENSION	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	54;"	d	line:54
+__EXTENSION	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	628;"	d	line:628
+__EXTENSION::__extension__	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	52;"	d	line:52
+__GENERIC_TYPE_DEFS_H_	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	48;"	d	line:48
+__PACKED	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	115;"	m	line:115
+__PACKED	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	116;"	s	line:116
+__PACKED	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	121;"	s	line:121
+__PACKED	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	147;"	m	line:147
+__PACKED	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	148;"	s	line:148
+__PACKED	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	154;"	s	line:154
+__PACKED	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	187;"	m	line:187
+__PACKED	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	188;"	m	line:188
+__PACKED	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	189;"	s	line:189
+__PACKED	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	194;"	s	line:194
+__PACKED	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	201;"	s	line:201
+__PACKED	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	206;"	s	line:206
+__PACKED	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	248;"	m	line:248
+__PACKED	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	249;"	m	line:249
+__PACKED	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	250;"	m	line:250
+__PACKED	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	251;"	s	line:251
+__PACKED	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	256;"	s	line:256
+__PACKED	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	263;"	s	line:263
+__PACKED	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	356;"	s	line:356
+__PACKED	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	372;"	m	line:372
+__PACKED	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	373;"	s	line:373
+__PACKED	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	378;"	s	line:378
+__PACKED	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	402;"	m	line:402
+__PACKED	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	403;"	m	line:403
+__PACKED	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	404;"	s	line:404
+__PACKED	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	409;"	s	line:409
+__PACKED	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	416;"	s	line:416
+__PACKED	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	421;"	s	line:421
+__PACKED	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	462;"	m	line:462
+__PACKED	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	463;"	m	line:463
+__PACKED	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	464;"	m	line:464
+__PACKED	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	465;"	s	line:465
+__PACKED	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	470;"	s	line:470
+__PACKED	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	477;"	s	line:477
+__PACKED	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	58;"	d	line:58
+_dword	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	579;"	m	line:579	union:_DWord
+_word	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	555;"	m	line:555	union:_Word
+b0	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	101;"	m	line:101
+b0	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	123;"	m	line:123	struct:<anonymous>::__PACKED
+b0	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	156;"	m	line:156	struct:<anonymous>::__PACKED
+b0	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	208;"	m	line:208	struct:<anonymous>::__PACKED
+b0	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	265;"	m	line:265	struct:<anonymous>::__PACKED
+b0	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	358;"	m	line:358	struct:<anonymous>::__PACKED
+b0	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	380;"	m	line:380	struct:<anonymous>::__PACKED
+b0	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	423;"	m	line:423	struct:<anonymous>::__PACKED
+b0	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	479;"	m	line:479	struct:<anonymous>::__PACKED
+b1	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	102;"	m	line:102
+b1	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	124;"	m	line:124	struct:<anonymous>::__PACKED
+b1	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	157;"	m	line:157	struct:<anonymous>::__PACKED
+b1	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	209;"	m	line:209	struct:<anonymous>::__PACKED
+b1	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	266;"	m	line:266	struct:<anonymous>::__PACKED
+b1	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	359;"	m	line:359	struct:<anonymous>::__PACKED
+b1	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	381;"	m	line:381	struct:<anonymous>::__PACKED
+b1	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	424;"	m	line:424	struct:<anonymous>::__PACKED
+b1	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	480;"	m	line:480	struct:<anonymous>::__PACKED
+b10	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	133;"	m	line:133	struct:<anonymous>::__PACKED
+b10	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	166;"	m	line:166	struct:<anonymous>::__PACKED
+b10	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	218;"	m	line:218	struct:<anonymous>::__PACKED
+b10	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	275;"	m	line:275	struct:<anonymous>::__PACKED
+b10	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	390;"	m	line:390	struct:<anonymous>::__PACKED
+b10	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	433;"	m	line:433	struct:<anonymous>::__PACKED
+b10	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	489;"	m	line:489	struct:<anonymous>::__PACKED
+b11	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	134;"	m	line:134	struct:<anonymous>::__PACKED
+b11	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	167;"	m	line:167	struct:<anonymous>::__PACKED
+b11	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	219;"	m	line:219	struct:<anonymous>::__PACKED
+b11	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	276;"	m	line:276	struct:<anonymous>::__PACKED
+b11	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	391;"	m	line:391	struct:<anonymous>::__PACKED
+b11	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	434;"	m	line:434	struct:<anonymous>::__PACKED
+b11	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	490;"	m	line:490	struct:<anonymous>::__PACKED
+b12	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	135;"	m	line:135	struct:<anonymous>::__PACKED
+b12	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	168;"	m	line:168	struct:<anonymous>::__PACKED
+b12	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	220;"	m	line:220	struct:<anonymous>::__PACKED
+b12	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	277;"	m	line:277	struct:<anonymous>::__PACKED
+b12	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	392;"	m	line:392	struct:<anonymous>::__PACKED
+b12	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	435;"	m	line:435	struct:<anonymous>::__PACKED
+b12	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	491;"	m	line:491	struct:<anonymous>::__PACKED
+b13	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	136;"	m	line:136	struct:<anonymous>::__PACKED
+b13	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	169;"	m	line:169	struct:<anonymous>::__PACKED
+b13	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	221;"	m	line:221	struct:<anonymous>::__PACKED
+b13	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	278;"	m	line:278	struct:<anonymous>::__PACKED
+b13	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	393;"	m	line:393	struct:<anonymous>::__PACKED
+b13	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	436;"	m	line:436	struct:<anonymous>::__PACKED
+b13	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	492;"	m	line:492	struct:<anonymous>::__PACKED
+b14	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	137;"	m	line:137	struct:<anonymous>::__PACKED
+b14	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	170;"	m	line:170	struct:<anonymous>::__PACKED
+b14	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	222;"	m	line:222	struct:<anonymous>::__PACKED
+b14	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	279;"	m	line:279	struct:<anonymous>::__PACKED
+b14	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	394;"	m	line:394	struct:<anonymous>::__PACKED
+b14	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	437;"	m	line:437	struct:<anonymous>::__PACKED
+b14	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	493;"	m	line:493	struct:<anonymous>::__PACKED
+b15	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	138;"	m	line:138	struct:<anonymous>::__PACKED
+b15	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	171;"	m	line:171	struct:<anonymous>::__PACKED
+b15	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	223;"	m	line:223	struct:<anonymous>::__PACKED
+b15	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	280;"	m	line:280	struct:<anonymous>::__PACKED
+b15	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	395;"	m	line:395	struct:<anonymous>::__PACKED
+b15	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	438;"	m	line:438	struct:<anonymous>::__PACKED
+b15	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	494;"	m	line:494	struct:<anonymous>::__PACKED
+b16	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	172;"	m	line:172	struct:<anonymous>::__PACKED
+b16	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	224;"	m	line:224	struct:<anonymous>::__PACKED
+b16	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	281;"	m	line:281	struct:<anonymous>::__PACKED
+b16	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	439;"	m	line:439	struct:<anonymous>::__PACKED
+b16	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	495;"	m	line:495	struct:<anonymous>::__PACKED
+b17	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	173;"	m	line:173	struct:<anonymous>::__PACKED
+b17	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	225;"	m	line:225	struct:<anonymous>::__PACKED
+b17	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	282;"	m	line:282	struct:<anonymous>::__PACKED
+b17	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	440;"	m	line:440	struct:<anonymous>::__PACKED
+b17	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	496;"	m	line:496	struct:<anonymous>::__PACKED
+b18	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	174;"	m	line:174	struct:<anonymous>::__PACKED
+b18	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	226;"	m	line:226	struct:<anonymous>::__PACKED
+b18	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	283;"	m	line:283	struct:<anonymous>::__PACKED
+b18	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	441;"	m	line:441	struct:<anonymous>::__PACKED
+b18	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	497;"	m	line:497	struct:<anonymous>::__PACKED
+b19	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	175;"	m	line:175	struct:<anonymous>::__PACKED
+b19	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	227;"	m	line:227	struct:<anonymous>::__PACKED
+b19	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	284;"	m	line:284	struct:<anonymous>::__PACKED
+b19	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	442;"	m	line:442	struct:<anonymous>::__PACKED
+b19	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	498;"	m	line:498	struct:<anonymous>::__PACKED
+b2	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	103;"	m	line:103
+b2	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	125;"	m	line:125	struct:<anonymous>::__PACKED
+b2	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	158;"	m	line:158	struct:<anonymous>::__PACKED
+b2	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	210;"	m	line:210	struct:<anonymous>::__PACKED
+b2	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	267;"	m	line:267	struct:<anonymous>::__PACKED
+b2	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	360;"	m	line:360	struct:<anonymous>::__PACKED
+b2	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	382;"	m	line:382	struct:<anonymous>::__PACKED
+b2	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	425;"	m	line:425	struct:<anonymous>::__PACKED
+b2	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	481;"	m	line:481	struct:<anonymous>::__PACKED
+b20	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	176;"	m	line:176	struct:<anonymous>::__PACKED
+b20	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	228;"	m	line:228	struct:<anonymous>::__PACKED
+b20	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	285;"	m	line:285	struct:<anonymous>::__PACKED
+b20	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	443;"	m	line:443	struct:<anonymous>::__PACKED
+b20	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	499;"	m	line:499	struct:<anonymous>::__PACKED
+b21	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	177;"	m	line:177	struct:<anonymous>::__PACKED
+b21	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	229;"	m	line:229	struct:<anonymous>::__PACKED
+b21	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	286;"	m	line:286	struct:<anonymous>::__PACKED
+b21	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	444;"	m	line:444	struct:<anonymous>::__PACKED
+b21	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	500;"	m	line:500	struct:<anonymous>::__PACKED
+b22	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	178;"	m	line:178	struct:<anonymous>::__PACKED
+b22	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	230;"	m	line:230	struct:<anonymous>::__PACKED
+b22	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	287;"	m	line:287	struct:<anonymous>::__PACKED
+b22	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	445;"	m	line:445	struct:<anonymous>::__PACKED
+b22	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	501;"	m	line:501	struct:<anonymous>::__PACKED
+b23	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	179;"	m	line:179	struct:<anonymous>::__PACKED
+b23	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	231;"	m	line:231	struct:<anonymous>::__PACKED
+b23	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	288;"	m	line:288	struct:<anonymous>::__PACKED
+b23	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	446;"	m	line:446	struct:<anonymous>::__PACKED
+b23	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	502;"	m	line:502	struct:<anonymous>::__PACKED
+b24	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	232;"	m	line:232	struct:<anonymous>::__PACKED
+b24	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	289;"	m	line:289	struct:<anonymous>::__PACKED
+b24	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	447;"	m	line:447	struct:<anonymous>::__PACKED
+b24	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	503;"	m	line:503	struct:<anonymous>::__PACKED
+b25	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	233;"	m	line:233	struct:<anonymous>::__PACKED
+b25	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	290;"	m	line:290	struct:<anonymous>::__PACKED
+b25	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	448;"	m	line:448	struct:<anonymous>::__PACKED
+b25	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	504;"	m	line:504	struct:<anonymous>::__PACKED
+b26	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	234;"	m	line:234	struct:<anonymous>::__PACKED
+b26	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	291;"	m	line:291	struct:<anonymous>::__PACKED
+b26	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	449;"	m	line:449	struct:<anonymous>::__PACKED
+b26	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	505;"	m	line:505	struct:<anonymous>::__PACKED
+b27	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	235;"	m	line:235	struct:<anonymous>::__PACKED
+b27	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	292;"	m	line:292	struct:<anonymous>::__PACKED
+b27	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	450;"	m	line:450	struct:<anonymous>::__PACKED
+b27	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	506;"	m	line:506	struct:<anonymous>::__PACKED
+b28	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	236;"	m	line:236	struct:<anonymous>::__PACKED
+b28	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	293;"	m	line:293	struct:<anonymous>::__PACKED
+b28	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	451;"	m	line:451	struct:<anonymous>::__PACKED
+b28	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	507;"	m	line:507	struct:<anonymous>::__PACKED
+b29	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	237;"	m	line:237	struct:<anonymous>::__PACKED
+b29	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	294;"	m	line:294	struct:<anonymous>::__PACKED
+b29	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	452;"	m	line:452	struct:<anonymous>::__PACKED
+b29	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	508;"	m	line:508	struct:<anonymous>::__PACKED
+b3	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	104;"	m	line:104
+b3	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	126;"	m	line:126	struct:<anonymous>::__PACKED
+b3	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	159;"	m	line:159	struct:<anonymous>::__PACKED
+b3	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	211;"	m	line:211	struct:<anonymous>::__PACKED
+b3	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	268;"	m	line:268	struct:<anonymous>::__PACKED
+b3	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	361;"	m	line:361	struct:<anonymous>::__PACKED
+b3	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	383;"	m	line:383	struct:<anonymous>::__PACKED
+b3	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	426;"	m	line:426	struct:<anonymous>::__PACKED
+b3	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	482;"	m	line:482	struct:<anonymous>::__PACKED
+b30	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	238;"	m	line:238	struct:<anonymous>::__PACKED
+b30	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	295;"	m	line:295	struct:<anonymous>::__PACKED
+b30	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	453;"	m	line:453	struct:<anonymous>::__PACKED
+b30	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	509;"	m	line:509	struct:<anonymous>::__PACKED
+b31	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	239;"	m	line:239	struct:<anonymous>::__PACKED
+b31	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	296;"	m	line:296	struct:<anonymous>::__PACKED
+b31	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	454;"	m	line:454	struct:<anonymous>::__PACKED
+b31	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	510;"	m	line:510	struct:<anonymous>::__PACKED
+b32	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	297;"	m	line:297	struct:<anonymous>::__PACKED
+b32	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	511;"	m	line:511	struct:<anonymous>::__PACKED
+b33	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	298;"	m	line:298	struct:<anonymous>::__PACKED
+b33	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	512;"	m	line:512	struct:<anonymous>::__PACKED
+b34	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	299;"	m	line:299	struct:<anonymous>::__PACKED
+b34	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	513;"	m	line:513	struct:<anonymous>::__PACKED
+b35	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	300;"	m	line:300	struct:<anonymous>::__PACKED
+b35	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	514;"	m	line:514	struct:<anonymous>::__PACKED
+b36	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	301;"	m	line:301	struct:<anonymous>::__PACKED
+b36	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	515;"	m	line:515	struct:<anonymous>::__PACKED
+b37	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	302;"	m	line:302	struct:<anonymous>::__PACKED
+b37	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	516;"	m	line:516	struct:<anonymous>::__PACKED
+b38	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	303;"	m	line:303	struct:<anonymous>::__PACKED
+b38	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	517;"	m	line:517	struct:<anonymous>::__PACKED
+b39	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	304;"	m	line:304	struct:<anonymous>::__PACKED
+b39	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	518;"	m	line:518	struct:<anonymous>::__PACKED
+b4	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	105;"	m	line:105
+b4	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	127;"	m	line:127	struct:<anonymous>::__PACKED
+b4	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	160;"	m	line:160	struct:<anonymous>::__PACKED
+b4	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	212;"	m	line:212	struct:<anonymous>::__PACKED
+b4	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	269;"	m	line:269	struct:<anonymous>::__PACKED
+b4	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	362;"	m	line:362	struct:<anonymous>::__PACKED
+b4	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	384;"	m	line:384	struct:<anonymous>::__PACKED
+b4	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	427;"	m	line:427	struct:<anonymous>::__PACKED
+b4	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	483;"	m	line:483	struct:<anonymous>::__PACKED
+b40	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	305;"	m	line:305	struct:<anonymous>::__PACKED
+b40	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	519;"	m	line:519	struct:<anonymous>::__PACKED
+b41	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	306;"	m	line:306	struct:<anonymous>::__PACKED
+b41	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	520;"	m	line:520	struct:<anonymous>::__PACKED
+b42	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	307;"	m	line:307	struct:<anonymous>::__PACKED
+b42	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	521;"	m	line:521	struct:<anonymous>::__PACKED
+b43	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	308;"	m	line:308	struct:<anonymous>::__PACKED
+b43	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	522;"	m	line:522	struct:<anonymous>::__PACKED
+b44	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	309;"	m	line:309	struct:<anonymous>::__PACKED
+b44	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	523;"	m	line:523	struct:<anonymous>::__PACKED
+b45	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	310;"	m	line:310	struct:<anonymous>::__PACKED
+b45	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	524;"	m	line:524	struct:<anonymous>::__PACKED
+b46	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	311;"	m	line:311	struct:<anonymous>::__PACKED
+b46	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	525;"	m	line:525	struct:<anonymous>::__PACKED
+b47	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	312;"	m	line:312	struct:<anonymous>::__PACKED
+b47	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	526;"	m	line:526	struct:<anonymous>::__PACKED
+b48	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	313;"	m	line:313	struct:<anonymous>::__PACKED
+b48	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	527;"	m	line:527	struct:<anonymous>::__PACKED
+b49	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	314;"	m	line:314	struct:<anonymous>::__PACKED
+b49	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	528;"	m	line:528	struct:<anonymous>::__PACKED
+b5	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	106;"	m	line:106
+b5	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	128;"	m	line:128	struct:<anonymous>::__PACKED
+b5	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	161;"	m	line:161	struct:<anonymous>::__PACKED
+b5	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	213;"	m	line:213	struct:<anonymous>::__PACKED
+b5	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	270;"	m	line:270	struct:<anonymous>::__PACKED
+b5	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	363;"	m	line:363	struct:<anonymous>::__PACKED
+b5	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	385;"	m	line:385	struct:<anonymous>::__PACKED
+b5	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	428;"	m	line:428	struct:<anonymous>::__PACKED
+b5	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	484;"	m	line:484	struct:<anonymous>::__PACKED
+b50	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	315;"	m	line:315	struct:<anonymous>::__PACKED
+b50	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	529;"	m	line:529	struct:<anonymous>::__PACKED
+b51	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	316;"	m	line:316	struct:<anonymous>::__PACKED
+b51	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	530;"	m	line:530	struct:<anonymous>::__PACKED
+b52	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	317;"	m	line:317	struct:<anonymous>::__PACKED
+b52	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	531;"	m	line:531	struct:<anonymous>::__PACKED
+b53	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	318;"	m	line:318	struct:<anonymous>::__PACKED
+b53	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	532;"	m	line:532	struct:<anonymous>::__PACKED
+b54	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	319;"	m	line:319	struct:<anonymous>::__PACKED
+b54	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	533;"	m	line:533	struct:<anonymous>::__PACKED
+b55	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	320;"	m	line:320	struct:<anonymous>::__PACKED
+b55	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	534;"	m	line:534	struct:<anonymous>::__PACKED
+b56	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	321;"	m	line:321	struct:<anonymous>::__PACKED
+b56	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	535;"	m	line:535	struct:<anonymous>::__PACKED
+b57	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	322;"	m	line:322	struct:<anonymous>::__PACKED
+b57	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	536;"	m	line:536	struct:<anonymous>::__PACKED
+b58	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	323;"	m	line:323	struct:<anonymous>::__PACKED
+b58	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	537;"	m	line:537	struct:<anonymous>::__PACKED
+b59	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	324;"	m	line:324	struct:<anonymous>::__PACKED
+b59	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	538;"	m	line:538	struct:<anonymous>::__PACKED
+b6	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	107;"	m	line:107
+b6	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	129;"	m	line:129	struct:<anonymous>::__PACKED
+b6	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	162;"	m	line:162	struct:<anonymous>::__PACKED
+b6	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	214;"	m	line:214	struct:<anonymous>::__PACKED
+b6	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	271;"	m	line:271	struct:<anonymous>::__PACKED
+b6	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	364;"	m	line:364	struct:<anonymous>::__PACKED
+b6	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	386;"	m	line:386	struct:<anonymous>::__PACKED
+b6	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	429;"	m	line:429	struct:<anonymous>::__PACKED
+b6	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	485;"	m	line:485	struct:<anonymous>::__PACKED
+b60	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	325;"	m	line:325	struct:<anonymous>::__PACKED
+b60	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	539;"	m	line:539	struct:<anonymous>::__PACKED
+b61	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	326;"	m	line:326	struct:<anonymous>::__PACKED
+b61	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	540;"	m	line:540	struct:<anonymous>::__PACKED
+b62	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	327;"	m	line:327	struct:<anonymous>::__PACKED
+b62	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	541;"	m	line:541	struct:<anonymous>::__PACKED
+b63	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	328;"	m	line:328	struct:<anonymous>::__PACKED
+b63	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	542;"	m	line:542	struct:<anonymous>::__PACKED
+b7	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	108;"	m	line:108
+b7	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	130;"	m	line:130	struct:<anonymous>::__PACKED
+b7	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	163;"	m	line:163	struct:<anonymous>::__PACKED
+b7	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	215;"	m	line:215	struct:<anonymous>::__PACKED
+b7	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	272;"	m	line:272	struct:<anonymous>::__PACKED
+b7	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	365;"	m	line:365	struct:<anonymous>::__PACKED
+b7	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	387;"	m	line:387	struct:<anonymous>::__PACKED
+b7	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	430;"	m	line:430	struct:<anonymous>::__PACKED
+b7	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	486;"	m	line:486	struct:<anonymous>::__PACKED
+b8	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	131;"	m	line:131	struct:<anonymous>::__PACKED
+b8	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	164;"	m	line:164	struct:<anonymous>::__PACKED
+b8	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	216;"	m	line:216	struct:<anonymous>::__PACKED
+b8	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	273;"	m	line:273	struct:<anonymous>::__PACKED
+b8	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	388;"	m	line:388	struct:<anonymous>::__PACKED
+b8	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	431;"	m	line:431	struct:<anonymous>::__PACKED
+b8	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	487;"	m	line:487	struct:<anonymous>::__PACKED
+b9	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	132;"	m	line:132	struct:<anonymous>::__PACKED
+b9	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	165;"	m	line:165	struct:<anonymous>::__PACKED
+b9	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	217;"	m	line:217	struct:<anonymous>::__PACKED
+b9	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	274;"	m	line:274	struct:<anonymous>::__PACKED
+b9	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	389;"	m	line:389	struct:<anonymous>::__PACKED
+b9	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	432;"	m	line:432	struct:<anonymous>::__PACKED
+b9	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	488;"	m	line:488	struct:<anonymous>::__PACKED
+bitmap	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	113;"	m	line:113
+bits	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	109;"	m	line:109
+bits	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	139;"	m	line:139
+bits	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	180;"	m	line:180
+bits	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	240;"	m	line:240
+bits	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	329;"	m	line:329
+bits	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	366;"	m	line:366
+bits	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	396;"	m	line:396
+bits	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	455;"	m	line:455
+bits	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	543;"	m	line:543
+busy	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	118;"	m	line:118
+byte	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	120;"	m	line:120
+byte	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	153;"	m	line:153
+byte	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	200;"	m	line:200
+byte	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	377;"	m	line:377
+byte	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	415;"	m	line:415
+byte	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	546;"	t	line:546
+byte0	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	558;"	m	line:558	struct:_Word::<anonymous>
+byte0	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	582;"	m	line:582	struct:_DWord::<anonymous>
+byte1	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	559;"	m	line:559	struct:_Word::<anonymous>
+byte1	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	583;"	m	line:583	struct:_DWord::<anonymous>
+byte2	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	584;"	m	line:584	struct:_DWord::<anonymous>
+byte3	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	585;"	m	line:585	struct:_DWord::<anonymous>
+byteTemp	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\Main.c	40;"	v	line:40
+chk	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\Main.c	155;"	l	line:155
+counter	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\Main.c	40;"	v	line:40
+data	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\include\Main.h	92;"	m	line:92	struct:_PROG_DATA_PACKET::<anonymous>
+dword	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	255;"	m	line:255
+dword	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	469;"	m	line:469
+dword	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	548;"	t	line:548
+error	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	117;"	m	line:117
+field	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	119;"	m	line:119
+high	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	204;"	m	line:204	struct:<anonymous>::__PACKED
+high	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	419;"	m	line:419	struct:<anonymous>::__PACKED
+high	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\include\Main.h	87;"	m	line:87	struct:_PROG_DATA_PACKET::<anonymous>::<anonymous>::<anonymous>
+i	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\Main.c	155;"	l	line:155
+jump_table	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\Main.c	67;"	v	line:67
+len	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\include\Main.h	79;"	m	line:79	struct:_PROG_DATA_PACKET::<anonymous>
+low	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	203;"	m	line:203	struct:<anonymous>::__PACKED
+low	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	418;"	m	line:418	struct:<anonymous>::__PACKED
+low	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\include\Main.h	86;"	m	line:86	struct:_PROG_DATA_PACKET::<anonymous>::<anonymous>::<anonymous>
+mSetSPI_CS_IN::trisSEL=INPUT_PIN;	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\io_cfg.h	33;"	d	line:33
+mSetSPI_CS_OUT::trisSEL=OUTPUT_PIN;	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\io_cfg.h	34;"	d	line:34
+main	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\Main.c	116;"	f	line:116	signature:(void)
+pAdr	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\include\Main.h	82;"	m	line:82	union:_PROG_DATA_PACKET::<anonymous>::<anonymous>
+sint16	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	623;"	t	line:623
+sint32	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	625;"	t	line:625
+sint8	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	621;"	t	line:621
+stdFn	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	57;"	t	line:57
+subtype	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	116;"	m	line:116
+tm	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\Main.c	265;"	l	line:265
+tm	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\Main.c	282;"	l	line:282
+top	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\include\Main.h	89;"	m	line:89	struct:_PROG_DATA_PACKET::<anonymous>::<anonymous>::<anonymous>
+trisSDO::TRISCbits.TRISC7	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\io_cfg.h	29;"	d	line:29
+trisSEL::TRISBbits.TRISB4	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\io_cfg.h	30;"	d	line:30
+uint16	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	622;"	t	line:622
+uint32	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	624;"	t	line:624
+uint8	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	620;"	t	line:620
+upper	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\include\Main.h	88;"	m	line:88	struct:_PROG_DATA_PACKET::<anonymous>::<anonymous>::<anonymous>
+v	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	573;"	m	line:573	struct:_Word::<anonymous>
+v	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	606;"	m	line:606	struct:_DWord::<anonymous>
+word	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	193;"	m	line:193
+word	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	262;"	m	line:262
+word	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	408;"	m	line:408
+word	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	476;"	m	line:476
+word	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	547;"	t	line:547
+word0	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	589;"	m	line:589	struct:_DWord::<anonymous>
+word1	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	590;"	m	line:590	struct:_DWord::<anonymous>
+wordUnion	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	205;"	m	line:205
+wordUnion	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	420;"	m	line:420

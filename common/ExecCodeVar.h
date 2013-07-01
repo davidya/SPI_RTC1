@@ -52,31 +52,8 @@ extern rom struct				//Need to sync this with ExecCode
 *		 PL_DENSE = 13           'PL sub for Tuning fork Density
 *    End Enum
 */
-#define JUMPTABLEADDR 0x2100
 
-typedef far char (* const stdFn)( UINT24 Addr, char * Data );
 extern rom stdFn jump_table[];
-
-typedef enum _JUMP_FUNCTION
-{
-	FN_EXECINIT			= 0,       
-    FN_EXECPROCESS		= 1,
-    FN_GETCOEFFSADDR	= 2,
-    FN_MEASURE			= 3,
-    FN_GETDATA			= 4,
-    FN_RESET			= 5,	
-    FN_SENDDATA			= 6,
-    FN_GETTIME			= 7,
-    FN_CLOCKRST			= 8,
-    FN_SETTIME			= 9,
-    FN_POWER			= 10,
-    FN_SPARE1			= 11,
-    FN_SPARE2			= 12,
-    FN_SPARE3			= 13,
-    FN_SPARE4			= 14,
-    FN_SPARE5			= 15
-} JUMP_FUNCTION;
-
 typedef enum
 {
 	SUB_READSTATUS	    = 0x40,			
