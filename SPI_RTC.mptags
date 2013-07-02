@@ -6,7 +6,6 @@
 !_TAG_PROGRAM_VERSION	5.5.4	//
 !_TAG_REVISION_NAME	MCHPTags	//
 !_TAG_REVISION_VERSION	6.0.1	//
-ADR	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\Main.c	366;"	p	line:366	file:	signature:((int)counter) << 6
 ADR	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\include\Main.h	91;"	m	line:91	struct:_PROG_DATA_PACKET::<anonymous>
 Adr32	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\include\Main.h	83;"	m	line:83	union:_PROG_DATA_PACKET::<anonymous>::<anonymous>
 BIT	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	65;"	t	line:65
@@ -24,57 +23,35 @@ Byte3	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	597;"	
 CHAR	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	347;"	t	line:347
 CHAR8	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	338;"	t	line:338
 CLEAR	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	65;"	e	line:65	enum:_BIT
-CMD	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\Main.c	44;"	v	line:44
-ChkSumEE	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\Main.c	280;"	f	line:280	signature:(char Addr, int Len)
-ChkSumEE	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\Main.c	35;"	p	line:35	file:	signature:(char Addr, int Len)
-ChkSumROM	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\Main.c	263;"	f	line:263	signature:(rom char *Data, int Len)
-ChkSumROM	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\Main.c	34;"	p	line:34	file:	signature:(rom char *Data, int Len)
-ClockRst	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	138;"	p	line:138	signature:( UINT24 Addr, char * Data )
-CoeffSAddr	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\Main.c	42;"	v	line:42
-ConfigBits_H	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\include\ConfigBits.h	20;"	d	line:20
+CMD	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\Main.c	41;"	v	line:41
+ClockRst	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	115;"	p	line:115	signature:( UINT24 Addr, char * Data )
+CoeffSAddr	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\Main.c	39;"	v	line:39
+ComfigBits_H	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\include\ConfigBits.h	23;"	d	line:23
 DWORD	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	343;"	t	line:343
 DWORD_VAL	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	456;"	t	line:456
 DWord	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	608;"	t	line:608
 EECON1_RD::EECON1bits.RD	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\include\Main.h	27;"	d	line:27
 EECON1_WR::EECON1bits.WR	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\include\Main.h	28;"	d	line:28
-EE_LOCS	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	127;"	t	line:127
-EE_SERIAL_HIGH	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	126;"	e	line:126
-EE_SERIAL_LOW	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	125;"	e	line:125
+EE_LOCS	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	104;"	t	line:104
+EE_SERIAL_HIGH	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	103;"	e	line:103
+EE_SERIAL_LOW	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	102;"	e	line:102
 EXECCODE_ENTRY::EXECCODE_STARTADDR+0x8E	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	23;"	d	line:23
 EXECCODE_STARTADDR::0x2000	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	22;"	d	line:22
 EXEC_CODE_VAR_STUB	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.c	33;"	v	line:33
-EraseProgMem	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\Main.c	357;"	f	line:357	signature:(void)
 EraseProgMem	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\include\Main.h	101;"	p	line:101	signature:(void)
-ExecCodeOK	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\Main.c	43;"	v	line:43
-ExecCodePresent	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\Main.c	297;"	f	line:297
-ExecCodePresent	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\Main.c	31;"	p	line:31	file:
+ExecCodeOK	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\Main.c	40;"	v	line:40
+ExecCodePresent	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\Main.c	32;"	p	line:32	file:
 ExecCodeVersion	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.c	29;"	m	line:29	file:
 ExecCodeVersion	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	32;"	m	line:32
-ExecInit	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	129;"	p	line:129	signature:( UINT24 Addr, char * Data )
-ExecProcess	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	130;"	p	line:130	signature:( UINT24 Addr, char * Data )
+ExecInit	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	106;"	p	line:106	signature:( UINT24 Addr, char * Data )
+ExecProcess	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	107;"	p	line:107	signature:( UINT24 Addr, char * Data )
 FAIL::FALSE	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	618;"	d	line:618
 FALSE	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	615;"	e	line:615	enum:_BOOL
 FALSE	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	64;"	e	line:64	enum:_BOOL
-FN_CLOCKRST	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	70;"	e	line:70	enum:_JUMP_FUNCTION
-FN_EXECINIT	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	62;"	e	line:62	enum:_JUMP_FUNCTION
-FN_EXECPROCESS	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	63;"	e	line:63	enum:_JUMP_FUNCTION
-FN_GETCOEFFSADDR	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	64;"	e	line:64	enum:_JUMP_FUNCTION
-FN_GETDATA	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	66;"	e	line:66	enum:_JUMP_FUNCTION
-FN_GETTIME	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	69;"	e	line:69	enum:_JUMP_FUNCTION
-FN_MEASURE	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	65;"	e	line:65	enum:_JUMP_FUNCTION
-FN_POWER	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	72;"	e	line:72	enum:_JUMP_FUNCTION
-FN_RESET	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	67;"	e	line:67	enum:_JUMP_FUNCTION
-FN_SENDDATA	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	68;"	e	line:68	enum:_JUMP_FUNCTION
-FN_SETTIME	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	71;"	e	line:71	enum:_JUMP_FUNCTION
-FN_SPARE1	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	73;"	e	line:73	enum:_JUMP_FUNCTION
-FN_SPARE2	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	74;"	e	line:74	enum:_JUMP_FUNCTION
-FN_SPARE3	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	75;"	e	line:75	enum:_JUMP_FUNCTION
-FN_SPARE4	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	76;"	e	line:76	enum:_JUMP_FUNCTION
-FN_SPARE5	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	77;"	e	line:77	enum:_JUMP_FUNCTION
-GetCodeAddr	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	131;"	p	line:131	signature:( UINT24 Addr, char * Data )
-GetCoeffsAddr	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	132;"	p	line:132	signature:( UINT24 Addr, char * Data )
-GetData	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	134;"	p	line:134	signature:( UINT24 Addr, char * Data )
-GetTime	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	137;"	p	line:137	signature:( UINT24 Addr, char * Data )
+GetCodeAddr	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	108;"	p	line:108	signature:( UINT24 Addr, char * Data )
+GetCoeffsAddr	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	109;"	p	line:109	signature:( UINT24 Addr, char * Data )
+GetData	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	111;"	p	line:111	signature:( UINT24 Addr, char * Data )
+GetTime	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	114;"	p	line:114	signature:( UINT24 Addr, char * Data )
 HB	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	119;"	m	line:119	struct:<anonymous>::__PACKED
 HB	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	151;"	m	line:151	struct:<anonymous>::__PACKED
 HB	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	197;"	m	line:197	struct:<anonymous>::__PACKED
@@ -87,7 +64,7 @@ HW	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	259;"	m	l
 HW	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	407;"	m	line:407	struct:<anonymous>::__PACKED
 HW	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	473;"	m	line:473	struct:<anonymous>::__PACKED
 HighB	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	569;"	m	line:569	struct:_Word::<anonymous>
-INPUT_PIN::1	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\io_cfg.h	25;"	d	line:25
+INPUT_PIN::1	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\io_cfg.h	27;"	d	line:27
 INT	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	72;"	t	line:72
 INT16	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	74;"	t	line:74
 INT32	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	75;"	t	line:75
@@ -95,11 +72,11 @@ INT64	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	79;"	t
 INT8	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	73;"	t	line:73
 INT_HIGH_OFFS::EXECCODE_STARTADDR+0x82	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	24;"	d	line:24
 INT_LOW_OFFS::EXECCODE_STARTADDR+0x88	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	25;"	d	line:25
-IO_CFG	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\io_cfg.h	20;"	d	line:20
-IntHandlerHigh	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\Main.c	36;"	p	line:36	file:	signature:(void)
-IntHandlerLow	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\Main.c	37;"	p	line:37	file:	signature:(void)
-JUMPTABLEADDR::0x2100	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	55;"	d	line:55
-JUMP_FUNCTION	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	78;"	t	line:78
+IO_CFG	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\io_cfg.h	22;"	d	line:22
+IntHandlerHigh	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\Main.c	33;"	p	line:33	file:	signature:(void)
+IntHandlerHigh	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\Main.c	72;"	f	line:72	signature:(void)
+IntHandlerLow	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\Main.c	34;"	p	line:34	file:	signature:(void)
+IntHandlerLow	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\Main.c	80;"	f	line:80	signature:(void)
 LB	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	118;"	m	line:118	struct:<anonymous>::__PACKED
 LB	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	150;"	m	line:150	struct:<anonymous>::__PACKED
 LB	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	196;"	m	line:196	struct:<anonymous>::__PACKED
@@ -123,7 +100,7 @@ LogFlashEndSector	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.
 LogFlashStartSector	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.c	31;"	m	line:31	file:
 LogFlashStartSector	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	34;"	m	line:34
 LowB	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	568;"	m	line:568	struct:_Word::<anonymous>
-MAIN_C	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\Main.c	20;"	d	line:20	file:
+MAIN_C	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\Main.c	21;"	d	line:21	file:
 MAIN_H	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\include\Main.h	20;"	d	line:20
 MAJOR_VERSION::7	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\include\Main.h	54;"	d	line:54
 MB	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	199;"	m	line:199	struct:<anonymous>::__PACKED
@@ -132,62 +109,57 @@ MINOR_VERSION::7	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\include\Main.h	50;"	
 MSB::(a)((a).v[1])	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	551;"	d	line:551
 MW	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	261;"	m	line:261	struct:<anonymous>::__PACKED
 MW	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	475;"	m	line:475	struct:<anonymous>::__PACKED
-Measure	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	133;"	p	line:133	signature:( UINT24 Addr, char * Data )
-Measuring	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\Main.c	43;"	v	line:43
+Measure	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	110;"	p	line:110	signature:( UINT24 Addr, char * Data )
+Measuring	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\Main.c	40;"	v	line:40
 OK::TRUE	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	617;"	d	line:617
-OUTPUT_PIN::0	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\io_cfg.h	26;"	d	line:26
+OUTPUT_PIN::0	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\io_cfg.h	28;"	d	line:28
 PRIVATE::static	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	69;"	d	line:69
 PROG_DATA_PACKET	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\include\Main.h	95;"	t	line:95
 PROTECTED	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	68;"	d	line:68
 PUBLIC::	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	67;"	d	line:67
-Power	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	140;"	p	line:140	signature:( UINT24 Addr, char * Data )
+Power	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	117;"	p	line:117	signature:( UINT24 Addr, char * Data )
 QWORD	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	346;"	t	line:346
 QWORD_VAL	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	544;"	t	line:544
 RECORD_TYPE::0	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	26;"	d	line:26
-ReadPIC_EE	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\Main.c	33;"	p	line:33	file:	signature:(char ptr)
-ReadPIC_EE	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\Main.c	388;"	f	line:388	signature:( char ptr )
-ReadProgMem	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\Main.c	326;"	f	line:326	signature:( void )
 ReadProgMem	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\include\Main.h	99;"	p	line:99	signature:(void)
 RecordType	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.c	30;"	m	line:30	file:
 RecordType	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	33;"	m	line:33
-Rst	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	135;"	p	line:135	signature:( UINT24 Addr, char * Data )
-Rtn	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\Main.c	118;"	l	line:118
-Rtn	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\Main.c	155;"	l	line:155
+Rst	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	112;"	p	line:112	signature:( UINT24 Addr, char * Data )
+Rtn	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\Main.c	105;"	l	line:105
+Rtn	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\Main.c	137;"	l	line:137
 SET	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	65;"	e	line:65	enum:_BIT
 SHORT	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	348;"	t	line:348
-SPI_CMD	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	100;"	t	line:100
-SPI_SEL::PORTBbits.RB4	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\io_cfg.h	32;"	d	line:32
-SUB_CLOCKRST	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	92;"	e	line:92
-SUB_EXECPROCESS	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	85;"	e	line:85
-SUB_GETCOEFFSADDR	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	86;"	e	line:86
-SUB_GETDATA	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	88;"	e	line:88
-SUB_GETPGMEM	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	83;"	e	line:83
-SUB_GETTIME	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	91;"	e	line:91
-SUB_MEASURE	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	87;"	e	line:87
-SUB_POWER	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	94;"	e	line:94
-SUB_PROGRAMEXEC	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	84;"	e	line:84
-SUB_READSTATUS	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	82;"	e	line:82
-SUB_RESET	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	89;"	e	line:89
-SUB_SENDDATA	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	90;"	e	line:90
-SUB_SETTIME	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	93;"	e	line:93
-SUB_SPARE1	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	95;"	e	line:95
-SUB_SPARE2	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	96;"	e	line:96
-SUB_SPARE3	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	97;"	e	line:97
-SUB_SPARE4	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	98;"	e	line:98
-SUB_SPARE5	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	99;"	e	line:99
-SUB_STATUS	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	121;"	t	line:121
-SendData	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	136;"	p	line:136	signature:( UINT24 Addr, char * Data )
-Service_SPI	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\Main.c	153;"	f	line:153	signature:( void )
+SPI_CMD	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	77;"	t	line:77
+SPI_SEL::PORTBbits.RB3	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\io_cfg.h	34;"	d	line:34
+SUB_CLOCKRST	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	69;"	e	line:69
+SUB_EXECPROCESS	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	62;"	e	line:62
+SUB_GETCOEFFSADDR	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	63;"	e	line:63
+SUB_GETDATA	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	65;"	e	line:65
+SUB_GETPGMEM	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	60;"	e	line:60
+SUB_GETTIME	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	68;"	e	line:68
+SUB_MEASURE	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	64;"	e	line:64
+SUB_POWER	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	71;"	e	line:71
+SUB_PROGRAMEXEC	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	61;"	e	line:61
+SUB_READSTATUS	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	59;"	e	line:59
+SUB_RESET	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	66;"	e	line:66
+SUB_SENDDATA	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	67;"	e	line:67
+SUB_SETTIME	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	70;"	e	line:70
+SUB_SPARE1	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	72;"	e	line:72
+SUB_SPARE2	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	73;"	e	line:73
+SUB_SPARE3	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	74;"	e	line:74
+SUB_SPARE4	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	75;"	e	line:75
+SUB_SPARE5	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	76;"	e	line:76
+SUB_STATUS	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	98;"	t	line:98
+SendData	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	113;"	p	line:113	signature:( UINT24 Addr, char * Data )
+Service_SPI	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\Main.c	135;"	f	line:135	signature:( void )
 Service_SPI	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\include\Main.h	102;"	p	line:102	signature:( void )
-SetTime	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	139;"	p	line:139	signature:( UINT24 Addr, char * Data )
-SpareFunc1	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	141;"	p	line:141	signature:( UINT24 Addr, char * Data )
-SpareFunc2	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	142;"	p	line:142	signature:( UINT24 Addr, char * Data )
-SpareFunc3	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	143;"	p	line:143	signature:( UINT24 Addr, char * Data )
-SpareFunc4	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	144;"	p	line:144	signature:( UINT24 Addr, char * Data )
-SpareFunc5	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	145;"	p	line:145	signature:( UINT24 Addr, char * Data )
-StartWrite	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\Main.c	316;"	f	line:316	signature:(void)
-Status	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\Main.c	45;"	v	line:45
-Subtype	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\Main.c	299;"	l	line:299
+SetTime	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	116;"	p	line:116	signature:( UINT24 Addr, char * Data )
+SpareFunc1	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	118;"	p	line:118	signature:( UINT24 Addr, char * Data )
+SpareFunc2	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	119;"	p	line:119	signature:( UINT24 Addr, char * Data )
+SpareFunc3	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	120;"	p	line:120	signature:( UINT24 Addr, char * Data )
+SpareFunc4	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	121;"	p	line:121	signature:( UINT24 Addr, char * Data )
+SpareFunc5	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	122;"	p	line:122	signature:( UINT24 Addr, char * Data )
+Status	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\Main.c	42;"	v	line:42
 TRUE	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	615;"	e	line:615	enum:_BOOL
 TRUE	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	64;"	e	line:64	enum:_BOOL
 UB	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	152;"	m	line:152	struct:<anonymous>::__PACKED
@@ -229,15 +201,11 @@ Word	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	575;"	t
 Word0	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	601;"	m	line:601	struct:_DWord::<anonymous>
 Word1	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	602;"	m	line:602	struct:_DWord::<anonymous>
 WordData	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\include\Main.h	93;"	m	line:93	struct:_PROG_DATA_PACKET::<anonymous>
-WritePIC_EE	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\Main.c	32;"	p	line:32	file:	signature:(char adr, BYTE data)
-WritePIC_EE	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\Main.c	375;"	f	line:375	signature:( char adr, BYTE data )
-WriteProgMem	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\Main.c	339;"	f	line:339	signature:(void)
 WriteProgMem	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\include\Main.h	100;"	p	line:100	signature:(void)
 _BIT	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	65;"	g	line:65
 _BOOL	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	615;"	g	line:615
 _BOOL	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	64;"	g	line:64
 _DWord	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	577;"	u	line:577
-_JUMP_FUNCTION	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	60;"	g	line:60
 _PROG_DATA_PACKET	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\include\Main.h	76;"	u	line:76
 _Word	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	553;"	u	line:553
 __EXTENSION	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	54;"	d	line:54
@@ -545,7 +513,7 @@ b9	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	274;"	m	l
 b9	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	389;"	m	line:389	struct:<anonymous>::__PACKED
 b9	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	432;"	m	line:432	struct:<anonymous>::__PACKED
 b9	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	488;"	m	line:488	struct:<anonymous>::__PACKED
-bitmap	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	113;"	m	line:113
+bitmap	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	90;"	m	line:90
 bits	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	109;"	m	line:109
 bits	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	139;"	m	line:139
 bits	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	180;"	m	line:180
@@ -555,7 +523,7 @@ bits	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	366;"	m
 bits	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	396;"	m	line:396
 bits	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	455;"	m	line:455
 bits	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	543;"	m	line:543
-busy	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	118;"	m	line:118
+busy	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	95;"	m	line:95
 byte	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	120;"	m	line:120
 byte	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	153;"	m	line:153
 byte	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	200;"	m	line:200
@@ -568,38 +536,35 @@ byte1	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	559;"	
 byte1	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	583;"	m	line:583	struct:_DWord::<anonymous>
 byte2	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	584;"	m	line:584	struct:_DWord::<anonymous>
 byte3	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	585;"	m	line:585	struct:_DWord::<anonymous>
-byteTemp	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\Main.c	40;"	v	line:40
-chk	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\Main.c	155;"	l	line:155
-counter	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\Main.c	40;"	v	line:40
+byteTemp	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\Main.c	37;"	v	line:37
+chk	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\Main.c	137;"	l	line:137
+counter	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\Main.c	37;"	v	line:37
 data	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\include\Main.h	92;"	m	line:92	struct:_PROG_DATA_PACKET::<anonymous>
 dword	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	255;"	m	line:255
 dword	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	469;"	m	line:469
 dword	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	548;"	t	line:548
-error	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	117;"	m	line:117
-field	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	119;"	m	line:119
+error	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	94;"	m	line:94
+field	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	96;"	m	line:96
 high	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	204;"	m	line:204	struct:<anonymous>::__PACKED
 high	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	419;"	m	line:419	struct:<anonymous>::__PACKED
 high	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\include\Main.h	87;"	m	line:87	struct:_PROG_DATA_PACKET::<anonymous>::<anonymous>::<anonymous>
-i	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\Main.c	155;"	l	line:155
-jump_table	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\Main.c	67;"	v	line:67
+i	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\Main.c	137;"	l	line:137
+jump_table	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\Main.c	64;"	v	line:64
 len	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\include\Main.h	79;"	m	line:79	struct:_PROG_DATA_PACKET::<anonymous>
 low	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	203;"	m	line:203	struct:<anonymous>::__PACKED
 low	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	418;"	m	line:418	struct:<anonymous>::__PACKED
 low	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\include\Main.h	86;"	m	line:86	struct:_PROG_DATA_PACKET::<anonymous>::<anonymous>::<anonymous>
-mSetSPI_CS_IN::trisSEL=INPUT_PIN;	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\io_cfg.h	33;"	d	line:33
-mSetSPI_CS_OUT::trisSEL=OUTPUT_PIN;	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\io_cfg.h	34;"	d	line:34
-main	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\Main.c	116;"	f	line:116	signature:(void)
+mSetSPI_CS_IN::trisSEL=INPUT_PIN;	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\io_cfg.h	35;"	d	line:35
+mSetSPI_CS_OUT::trisSEL=OUTPUT_PIN;	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\io_cfg.h	36;"	d	line:36
+main	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\Main.c	103;"	f	line:103	signature:(void)
 pAdr	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\include\Main.h	82;"	m	line:82	union:_PROG_DATA_PACKET::<anonymous>::<anonymous>
 sint16	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	623;"	t	line:623
 sint32	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	625;"	t	line:625
 sint8	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	621;"	t	line:621
-stdFn	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	57;"	t	line:57
-subtype	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	116;"	m	line:116
-tm	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\Main.c	265;"	l	line:265
-tm	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\Main.c	282;"	l	line:282
+subtype	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\ExecCodeVar.h	93;"	m	line:93
 top	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\include\Main.h	89;"	m	line:89	struct:_PROG_DATA_PACKET::<anonymous>::<anonymous>::<anonymous>
-trisSDO::TRISCbits.TRISC7	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\io_cfg.h	29;"	d	line:29
-trisSEL::TRISBbits.TRISB4	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\io_cfg.h	30;"	d	line:30
+trisSDO::TRISBbits.TRISB5	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\io_cfg.h	31;"	d	line:31
+trisSEL::TRISBbits.TRISB3	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\io_cfg.h	32;"	d	line:32
 uint16	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	622;"	t	line:622
 uint32	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	624;"	t	line:624
 uint8	C:\Users\dya_000\Documents\GitHub\SPI_RTC1\common\GenericTypeDefs.h	620;"	t	line:620
