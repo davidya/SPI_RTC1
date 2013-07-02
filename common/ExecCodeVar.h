@@ -53,7 +53,6 @@ extern rom struct				//Need to sync this with ExecCode
 *    End Enum
 */
 
-extern rom stdFn jump_table[];
 typedef enum
 {
 	SUB_READSTATUS	    = 0x40,			

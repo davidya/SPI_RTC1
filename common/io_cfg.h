@@ -28,10 +28,19 @@
 #define OUTPUT_PIN          0
 
 /*** SPI ****************************************************/
-#define trisSDO TRISBbits.TRISB5
+#define trisSDO TRISCbits.TRISC7
 #define trisSEL TRISBbits.TRISB3
-//#define SPI_SEL PORTCbits.RC6	//Temporary for Sensor sub on first main board (will move to common
-#define SPI_SEL PORTBbits.RB3				
+#define trisSCK TRISBbits.TRISB4
+#define trisSDI TRISBbits.TRISB5
+#define SPI_SEL PORTBbits.RB3
+
+#define SDO LATCbits.LATC7
+#define SCK LATBbits.LATB4
+	
+// Pin directions plus Latches set for default data and clock, no open drain, Analog pins set as digital
+#define mSetupMSSP1() trisSCK = INPUT_PIN;trisSDO = OUTPUT_PIN;trisSDI = INPUT_PIN;SDO = 0;SCK = 1;ODCON3bits.SPI1OD = 0;ANCON1bits.PCFG12 = 1;
+			
+//#define mSetSPI() trisSCK = INPUT_PIN; trisSDO = OUTPUT_PIN; ODCON3 = 0x0; ANCON1bits.PCFG12 = 1;
 #define mSetSPI_CS_IN() trisSEL = INPUT_PIN;
 #define mSetSPI_CS_OUT() trisSEL = OUTPUT_PIN;
 
