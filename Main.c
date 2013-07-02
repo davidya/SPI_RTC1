@@ -44,14 +44,14 @@ SUB_STATUS Status;
 #pragma code high_vector=0x08
 void interrupt_at_high_vector(void)
 {
-	//_asm goto IntHandlerHigh _endasm
+	_asm goto IntHandlerHigh _endasm
 }
 #pragma code
 
 #pragma code low_vector=0x18
 void interrupt_at_low_vector(void)
 {
-    //_asm goto IntHandlerLow _endasm
+    _asm goto IntHandlerLow _endasm
 }
 
 #pragma romdata VER = 0x20
@@ -64,7 +64,7 @@ rom char Ver[] = {  MINOR_VERSION, MAJOR_VERSION };
 #pragma interrupt IntHandlerHigh
 void IntHandlerHigh (void)				//Re-Map here
 {
-	if( PIR1bits.SSP1IF ) 
+	if( PIR1bits.SSPIF ) 
 	{
 		Service_SPI();
 	}
@@ -101,6 +101,8 @@ void main(void)
 	OpenSPI1(SLV_SSOFF, MODE_11, SMPMID);				//Initialize in slave mode with SS pin disabled.
 	mSetSPI_CS_IN()	
 	
+	
+	
 	OSCCONbits.IRCF0 = 1;	//Run the internal oscillator at 8Mhz (if we have no external 8mHz)
 	OSCCONbits.IRCF1 = 1;
 	OSCCONbits.IRCF2 = 1;
@@ -108,13 +110,17 @@ void main(void)
 	Rtn = SSP1BUF;									//Clear BF
  	SSP1BUF = 0x00;           						// initiate bus cycle
  	
+ 	//while(!SSP1STATbits.BF);
+ 	
+ 	
  	RCONbits.IPEN = 1;								//Enable priority levels on interrupts 
  	INTCONbits.GIEH = 1;							//Enables all high-priority interrupts
  	INTCONbits.TMR0IE = 0;							//Disable TMR0 interrupts
  	INTCONbits.INT0IE = 0;							//Disable INT0 External Interrupts
  	INTCONbits.RBIE = 0;							//Disable RB Port Change Interrupts
- 	PIE1bits.SSP1IE = 1;							//Master Synchronous Serial Port Interrupt Enable bit
- 	IPR1bits.SSP1IP = 1;							//Master Synchronous Serial Port Interrupt Priority bit - High Priority
+ 	PIE1bits.SSPIE = 1;								//Master Synchronous Serial Port Interrupt Enable bit
+ 	IPR1bits.SSPIP = 1;								//Master Synchronous Serial Port Interrupt Priority bit - High Priority
+ 	PIR1bits.SSPIF = 0; 							//Master Synchronous Serial Port Interrupt Priority bit - High Priority
  		 	
 	while(1)
 	{
